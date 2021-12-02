@@ -1,0 +1,47 @@
+html{
+    height: 900%;
+}
+body{
+    background: #1FA2FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*background: linear-gradient(to right, #141e30, #243b55);*/
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#output{
+    font-size: 13px;
+}
+span{
+    color: red;
+    white-space: nowrap;
+    font-size: 13px;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    border-radius: 1000px;
+    padding: 100px;
+    box-shadow: rgb(38,57, 77) 0px 20px 30px -10px;
+}
+input{
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+select{
+    outline: none;
+}
+button{
+    color: white;
+    padding: 10px;
+    border: 3px solid white;
+    background: none;
+    cursor: pointer;
+}
